@@ -1,0 +1,1 @@
+A temperatura atual é **20º**
