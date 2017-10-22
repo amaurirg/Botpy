@@ -28,5 +28,3 @@ patterns = [
     Pattern('clima', tempclima),
     Pattern('Clima', tempclima),
 ]
-
-os.system("bottery run")
