@@ -1,1 +1,1 @@
-web: gunicorn botpy.wsgi --log-file -
+web: gunicorn botpy:app
