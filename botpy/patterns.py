@@ -1,7 +1,7 @@
 from bottery.conf.patterns import Pattern
 from bottery.message import render
 from bottery.views import pong
-import clima, datetime, re
+import clima, datetime, re, os
 
 
 def hello(message):
@@ -28,3 +28,5 @@ patterns = [
     Pattern('clima', tempclima),
     Pattern('Clima', tempclima),
 ]
+
+os.system("bottery run")
