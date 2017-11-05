@@ -25,6 +25,9 @@ patterns = [
     Pattern('Hello', hello),
     Pattern('Olá', hello),
     Pattern('olá', hello),
+    Pattern('Ola', hello),
+    Pattern('ola', hello),
     Pattern('clima', tempclima),
     Pattern('Clima', tempclima),
+    # Pattern('')
 ]
